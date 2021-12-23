@@ -51,6 +51,7 @@ public class LoginStepDef {
 		public void user_is_on_home_page() {
 		    boolean isValidUser =driver.findElement(By.cssSelector("div.success")).isDisplayed();
 		    Assert.assertTrue(isValidUser);
+			System.out.println("GitHub");
 		}
 
 
